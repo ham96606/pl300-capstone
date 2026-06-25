@@ -1,0 +1,15 @@
+# Power BI files (contain embedded dataset)
+*.pbix
+*.pbit
+
+# Raw data files (download from Kaggle/UCI -- see README)
+diabetic_data.csv
+IDS_mapping.csv
+Dataset_description.pdf
+
+# Company-specific files
+WellvanaHealthTheme.json
+
+# OS files
+.DS_Store
+Thumbs.db
