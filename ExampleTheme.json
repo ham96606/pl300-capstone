@@ -1,0 +1,40 @@
+{
+  "name": "PL300 Example Theme",
+  "dataColors": [
+    "#1F6B8E",
+    "#2E9E6B",
+    "#E84C3D",
+    "#F5A623",
+    "#7B68EE",
+    "#5DADE2",
+    "#A9DFBF",
+    "#F1948A"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F6B8E",
+  "tableAccent": "#2E9E6B",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [{ "fontSize": 28, "fontBold": true, "color": { "solid": { "color": "#1F6B8E" } } }],
+        "label": [{ "fontSize": 11, "color": { "solid": { "color": "#555555" } } }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#1F6B8E" } } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [{ "fontColor": { "solid": { "color": "#1F6B8E" } }, "fontBold": true }]
+      }
+    }
+  }
+}
